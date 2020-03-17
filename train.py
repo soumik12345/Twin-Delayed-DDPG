@@ -20,7 +20,7 @@ class Trainer:
         self.action_dimension = self.env.action_space.shape[0]
         self.max_action = float(self.env.action_space.high[0])
         self.device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-        self.agent = TD3(
+        self.agent = TD3Agent(
             state_dim=self.state_dimension, action_dim=self.action_dimension,
             max_action=self.max_action, device=self.device,
             discount=self.config['discount'], tau=self.config['tau']
