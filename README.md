@@ -12,7 +12,7 @@ Pytorch Implementation of Twin Delayed Deep Deterministic Policy Gradients Algor
 
 Experiment Conducted on **Free-P5000** instance provided by [Paperspace Gradient](gradient.paperspace.com).
 
-![](./Results/BipedalWalker-V3.gif)
+![](./Results/BipedalWalker-v3.gif)
 
 ### LunarLanderContinuous-V2
 
