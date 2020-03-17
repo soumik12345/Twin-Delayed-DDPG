@@ -3,7 +3,7 @@ from .models import *
 from copy import deepcopy
 
 
-class TD3(object):
+class TD3Agent(object):
 
     def __init__(
             self, state_dim, action_dim, max_action, device,
@@ -52,8 +52,8 @@ class TD3(object):
             self.actor_optimizer.zero_grad()
             actor_loss.backward()
             self.actor_optimizer.step()
-            TD3.soft_update(self.critic, self.critic_target, self.tau)
-            TD3.soft_update(self.actor, self.actor_target, self.tau)
+            TD3Agent.soft_update(self.critic, self.critic_target, self.tau)
+            TD3Agent.soft_update(self.actor, self.actor_target, self.tau)
 
     def save(self, filename):
         torch.save(self.critic.state_dict(), filename + "_critic")
