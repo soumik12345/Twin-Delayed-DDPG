@@ -16,9 +16,9 @@ Experiment Conducted on **Free-P5000** instance provided by [Paperspace Gradient
 
 ### LunarLanderContinuous-V2
 
-**Mean Environment Link:** [https://gym.openai.com/envs/LunarLanderContinuous-v2/](https://gym.openai.com/envs/LunarLanderContinuous-v2/)
+**Environment Link:** [https://gym.openai.com/envs/LunarLanderContinuous-v2/](https://gym.openai.com/envs/LunarLanderContinuous-v2/)
 
-**Reward:** `272.55341062406666` sampled over `20` evaluation episodes.
+**Mean Reward:** `272.55341062406666` sampled over `20` evaluation episodes.
 
 Experiment Conducted on **Free-P5000** instance provided by [Paperspace Gradient](gradient.paperspace.com).
 
